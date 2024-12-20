@@ -1,0 +1,23 @@
+p::first-line
+{
+    color:blue;
+    background-color: black;
+    height:100px;
+    width:100%;
+    text-align: center;
+    font-size: 100px;
+
+
+}
+p::after
+{
+    content:url("sunset.jpg")
+}
+b::before
+{
+    content:url("coffeee.jpg")
+}
+p::selection
+{
+    color:red;
+}

@@ -1,0 +1,56 @@
+
+<html>
+    <script>
+        function validatesize()
+        {
+            let uname=document.getElementById("uname").value;
+            let psd=document.getElementById("psd").value;
+            if(uname.length>20||psd.length<8)
+        {
+            alert("invalid pattern for username or password");
+        }
+        else
+        {
+            alert("successfully login");
+        }
+        }
+        
+        function validatealphabat()
+        {
+            var input=document.getElementById("psd").value;
+            var lowercase=/[a-z]/g;
+            var uppercase=/[A-Z]/g;
+            var invalid="<html><body><ul><li>use lower case letter </li><li>use upper case letter</li></ul></body><html>";
+            if(input.match(lowercase))
+        {
+            if(input.match(upperrcase))
+        {
+            return true;
+        }
+        
+        else
+        {
+            alert("invalid input");
+            document.getElementryId("invalid").innerHTML=invalid;
+        }
+    }
+}
+        function validatesymbol()
+        {
+
+        }
+        function validatenumber()
+        {
+
+        }
+        function validate()
+        {
+            
+        }
+         </script>
+<body>
+    <label>Enter username</label><input type="text" placeholder="Enter Username" id="uname"></input><br>    
+    <label>Enter Password</label><input type="password" placeholder="Enter Password" id="psd">
+    <input type="button" value="Submit" onclick="validate()">
+</body>
+</html>

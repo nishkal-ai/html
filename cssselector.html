@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>
+            CSS selector
+            </title>
+            <style>
+                ul li+li{
+                    color:red;
+                    font-size: 50px;
+                
+                }
+                ul li:hover{
+                    color:green;
+                    font-size: 11px;
+                   
+                }
+                a:link{
+                    color:aqua;
+                    background-color: black;
+                }
+                a:visited{
+                    color:green;
+                    font-size: 45px;
+                    background-color: blue;
+                }
+                a:active{
+                    color:grey;
+                    font-size: 20px;
+                }
+                table tr{
+                    background-color: green;
+                    font-size: 15px;
+
+                }
+                table tr:hover{
+                    color:white;
+
+                }
+                table tr td:hover{
+                    color:blue;
+                    font-size: 50px;
+                }
+                </style>
+            </head>
+            <body>
+                <h1>Css selectors</h1>
+                <a href="www.google.com">Link to Google</a>
+                <ul>
+                    <li>List 1</li>
+                    <li>List 2</li>
+                    <ul>
+                        <li>inner list 1</li>
+                        <li>inner list 2</li>
+                        </ul>
+                </ul>
+                <table>
+                    <tr><td>call1</td><td>cell2</td><td>cell3</td>
+                        <tr><td>call1</td><td>cell2</td><td>cell3</td>
+                            <tr><td>call1</td><td>cell2</td><td>cell3</td>
+                                <tr><td>call1</td><td>cell2</td><td>cell3</td>
+                </body>
+                </html>

@@ -1,0 +1,26 @@
+.a
+{
+  height:400px;
+  width:30%;
+  border:2px solid black;
+  float:left;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+img{
+    height:400px;
+    width:100%;
+}
+button{
+    background-color: gray;
+    height:50px;
+    width:100px;
+    color:white;
+    border-radius:10px;
+}
+.b
+{
+    border:2px solid black;
+    width:100%;
+    float:left;
+}
